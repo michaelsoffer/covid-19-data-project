@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik'); /* rubik font */
+
+.covidData_info {
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 375px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+* { font-family: Rubik; }
+
+p {
+    padding: 20px;
+}
+
+.covidData_input input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: auto;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px;
+    width: 350px;
+}
+
+.covidData_input button {
+    background-color: #0088A9;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px;
+    width: 375px;
+}
+
+.covidData_input button:hover {
+    background-color: #00637c;
+}

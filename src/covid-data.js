@@ -11,15 +11,6 @@ function CovidData() {
     const [active, setActive] = useState("");
     const [userInput, setUserInput] = useState("");
 
-    // useEffect(() => {
-    //     // disease.sh is the open data API I used for this project
-    //     fetch("https://disease.sh/v3/covid-19/countries")
-    //     .then((res) => res.json())
-    //     .then((data) => {
-    //         setData(data);
-    //     });
-    // }, []);
-
     // setData is called in handleSubmit. When the user submits their search, the variables will be set to appropriate values
     const setData = ({
         country,
